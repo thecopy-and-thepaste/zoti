@@ -1,0 +1,28 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+#VirtualEnv
+env/*
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+__pycache__/
+
+# aux
+.env
+.collections/
+config/
+*.csv
+results/
+.ipynb_checkpoints
+*.json
+
+# dist
+dist/
